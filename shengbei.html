@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style type="text/css">
+        .main {
+            padding: 0 120px 0 200px;
+            overflow: hidden;
+            background: blue;
+        }
+
+        .left,
+        .middle,
+        .right {
+            position: relative;
+            float: left;
+            height: 100px;
+        }
+
+        .left {
+            left: -200px;
+            margin-left: -100%;
+            background: red;
+            width: 200px;
+
+        }
+
+        .right {
+            right: -120px;
+            background: yellow;
+            margin-left: -120px;
+            width: 120px;
+
+        }
+
+        .middle {
+            background: green;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="middle">middle
+        </div>
+
+        <div class="left">left
+        </div>
+        <div class="right">right
+        </div>
+
+
+    </div>
+</body>
+
+</html>
