@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost/qimiaosenlin/tests/面试项目/",
+            "url": "http://localhost/qimiaosenlin/tests/vscodetest/",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}",
             "internalConsoleOptions": "openOnSessionStart",
