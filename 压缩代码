@@ -1,6 +1,9 @@
 解压
 "C:/Program Files/WinRAR/WinRAR.exe" x "D:\tool\nwjs-sdk-v0.41.1-win-x64\myapp\myapp.zip" "1.ts" "D:\wamp\www\qimiaosenlin\WDQK\WDQK\Tmp\1\"
---- 执行程序--------------------解压命令------包含文件？-----压缩文件目录------解压文件？-----解压目录-----
+"C:/Program Files/WinRAR/WinRAR.exe" x "D:\tool\nwjs-sdk-v0.41.1-win-x64\dy\dy.zip" "*.*" "D:\tool\nwjs-sdk-v0.41.1-win-x64\1\"
+--- 执行程序--------------------解压命令-----------压缩文件目录------解压文件-----解压目录-----
+
+
 删除
 "C:/Program Files/WinRAR/WinRAR.exe" d -ms"*.jpg;*.png;*.mp4;" "D:\tool\nwjs-sdk-v0.41.1-win-x64\myapp\myapp.zip" "1.ts"
 --- 执行程序--------------------删除命令---更新参数---包含文件-----压缩文件目录---删除文件--
